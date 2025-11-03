@@ -1,2 +1,5 @@
-res://practices/L3.P2.character_diagonals/character_diagonals.tscn
+res://ship.tscn
 res://addons/gdpractice/assets/theme.tres
+res://ship.gd
+res://practices/L4.P1.boosting_circle/boosting_circle.gd
+res://practices/L4.P1.boosting_circle/boosting_circle.tscn
