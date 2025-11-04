@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [gd_scene load_steps=8 format=3 uid="uid://o07b1w5x3370"]
+=======
+[gd_scene load_steps=8 format=3 uid="uid://c1jr84qjia3ap"]
+>>>>>>> 63623e4e6c83cc3519daa0a7f60baf482590bd6e
 
 [ext_resource type="Texture2D" uid="uid://d1xp2mgpkkc42" path="res://assets/practice_assets/shape_ship.png" id="1_w7vm3"]
 [ext_resource type="Script" uid="uid://b4s32vbbvr6mv" path="res://practices/L4.P1.boosting_circle/boosting_circle.gd" id="2_v458s"]
@@ -34,6 +38,9 @@ process_material = SubResource("ParticleProcessMaterial_q610u")
 [node name="Background" parent="." instance=ExtResource("4_4en4c")]
 
 [node name="Timer" type="Timer" parent="."]
+<<<<<<< HEAD
 one_shot = true
+=======
+>>>>>>> 63623e4e6c83cc3519daa0a7f60baf482590bd6e
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

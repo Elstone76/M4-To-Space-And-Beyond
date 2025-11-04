@@ -9,5 +9,9 @@ texture = ExtResource("1_4cq66")
 script = ExtResource("2_v4325")
 
 [node name="Timer" type="Timer" parent="."]
+<<<<<<< HEAD
+=======
+one_shot = true
+>>>>>>> 63623e4e6c83cc3519daa0a7f60baf482590bd6e
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
